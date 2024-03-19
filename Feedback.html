@@ -41,14 +41,14 @@
                         </div>
                     </div>
                 </section>
-                <a role="button" class="am-button ticketForm_button__22_y7" aria-disabled="false">
+                <a href="#" onclick="showPopup()" role="button" class="am-button ticketForm_button__22_y7" aria-disabled="false">
                     <i class="icon"></i><span>Submit</span>
                 </a>
             </form>
         </section>
     </div>
 </div>
-<div class="ReactModalPortal">
+<div id="popup" class="ReactModalPortal" display="none">
     <div class="ReactModal__Overlay ReactModal__Overlay--after-open"
          style="position: fixed; inset: 0px; background-color: rgba(255, 255, 255, 0.75);">
         <div class="ReactModal__Content ReactModal__Content--after-open" tabindex="-1" role="dialog" aria-modal="true"
@@ -65,4 +65,9 @@
 </div>
 
 </body>
+<script>
+    function showPopup() {
+        document.getElementById("popup").style.display = "block"
+    }
+</script>
 </html>
