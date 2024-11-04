@@ -1,11 +1,14 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.dailyshort.androidapp",
-      "sha256_cert_fingerprints":
-        ["C6:D8:0A:CA:8D:AD:78:62:61:22:4D:9E:A1:0F:B1:45:CC:05:44:5B:C5:4D:A8:D5:00:FD:1B:51:B1:60:06:57"]
+      "sha256_cert_fingerprints": [
+        "C6:D8:0A:CA:8D:AD:78:62:61:22:4D:9E:A1:0F:B1:45:CC:05:44:5B:C5:4D:A8:D5:00:FD:1B:51:B1:60:06:57"
+      ]
     }
   }
 ]
